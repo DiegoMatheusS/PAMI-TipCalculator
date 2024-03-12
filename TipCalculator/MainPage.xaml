@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TipCalculator.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+            Text="Valor da Gorjeta"/>
+
+
+            <Entry
+                x:Name="ValueEntry" 
+                Placeholder="Digite Aqui o valor"
+                />
+
+            <Label
+                Text="Tip:" 
+               
+                />
+
+            <Label
+                Text="0.00"
+                x:Name="LabelTipValue"
+            />
+            <Label
+                Text="Total"
+                
+             />
+            <Label
+                Text="0.00"
+                x:Name="LabelTotalValue"
+                />
+
+            <Label
+                Text="Tip Porcentagem"
+                
+                />
+            <Label
+                Text="0%"
+                x:Name="LabelPercentValue"
+                />
+
+            <Slider
+                x:Name="SliderTipPercent"  
+                Minimum="0"
+                Maximum="100"
+                ValueChanged="SliderTipPercent_ValueChanged_1"
+                />
+
+            <Button
+                x:Name="Button15"
+                Text="15%" 
+                Clicked="OnButton15Clicked"
+                
+                />
+
+            <Button
+                x:Name="Button20"
+                Text="20%" 
+                Clicked="OnButton20Clicked"
+             />
+
+            <Button
+                x:Name="ButtonRoundDown"
+                Text="Arredondar Para Baixo" 
+                Clicked="ButtonRoundDownClicked"
+            />
+
+            <Button
+                x:Name="ButtonRoundUp"
+                Text="Arredondar Para Cima" 
+                Clicked="ButtonRoundUpClicked"
+            />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

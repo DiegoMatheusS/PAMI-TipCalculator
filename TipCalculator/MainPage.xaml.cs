@@ -14,12 +14,12 @@ namespace TipCalculator
 
         private void OnButton15Clicked(object sender, EventArgs e)
         {
-
+            SliderTipPercent.Value = 15;
         }
 
         private void OnButton20Clicked(object sender, EventArgs e)
         {
-
+            SliderTipPercent.Value = 20;
         }
 
         private void ButtonRoundDownClicked(object sender, EventArgs e)
@@ -65,6 +65,7 @@ namespace TipCalculator
         private void SliderTipPercent_ValueChanged_1(object sender, ValueChangedEventArgs e)
         {
             LabelPercentValue.Text = Math.Round(SliderTipPercent.Value).ToString();
+            LabelPercentValue.Text += "%";
         }
     }
 }

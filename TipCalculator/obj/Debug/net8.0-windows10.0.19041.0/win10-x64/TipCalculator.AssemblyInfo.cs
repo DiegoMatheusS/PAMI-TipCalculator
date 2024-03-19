@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TipCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+beeaa30d09f93073daf617ce60bf167783a48373")]
 [assembly: System.Reflection.AssemblyProductAttribute("TipCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TipCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

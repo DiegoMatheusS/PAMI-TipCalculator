@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\2DS_DiegoMatheus\PAM\PAMI-TipCalculator\TipCalculator\TipCalculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-12T01:47:10.624</Modified>
+      <Modified>2024-03-19T00:44:03.754</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\2DS_DiegoMatheus\PAM\PAMI-TipCalculator\TipCalculator\TipCalculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-12T01:45:41.667</Modified>
+      <Modified>2024-03-18T23:37:31.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS_DiegoMatheus\PAM\PAMI-TipCalculator\TipCalculator\TipCalculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TipCalculator.runtimeconfig.json">
       <PackagePath>TipCalculator.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS_DiegoMatheus\PAM\PAMI-TipCalculator\TipCalculator\TipCalculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TipCalculator.dll">
       <PackagePath>TipCalculator.dll</PackagePath>
-      <Modified>2024-03-12T01:47:10.342</Modified>
+      <Modified>2024-03-19T00:44:02.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS_DiegoMatheus\PAM\PAMI-TipCalculator\TipCalculator\TipCalculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TipCalculator.exe</PackagePath>
-      <Modified>2024-03-12T01:47:10.342</Modified>
+      <Modified>2024-03-19T00:44:02.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS_DiegoMatheus\PAM\PAMI-TipCalculator\TipCalculator\TipCalculator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

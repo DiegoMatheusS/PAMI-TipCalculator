@@ -4,76 +4,123 @@
              x:Class="TipCalculator.MainPage">
 
     <ScrollView>
+        
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
+            Spacing="25"
+            >
+            
             <Label
-            Text="Valor da Gorjeta"/>
-
+            HorizontalOptions="Center"
+            Text="Valor da Gorjeta"               
+            TextColor="Black"
+            FontAttributes="Bold"
+            FontSize="Large"/>
+            
 
             <Entry
                 x:Name="ValueEntry" 
                 Placeholder="Digite Aqui o valor"
+                PlaceholderColor="Gray"
+                BackgroundColor="DarkRed"
+                TextColor="White"
                 />
-
-            <Label
+            <HorizontalStackLayout Spacing="50">
+                <Label 
                 Text="Tip:" 
-               
+                FontAttributes="Bold"
+                TextColor="DarkGreen"    
                 />
-
-            <Label
-                Text="0.00"
+                
+                <Label 
+                Text="0.00" 
                 x:Name="LabelTipValue"
-            />
-            <Label
+                FontAttributes="Bold"
+                    
+                />
+            </HorizontalStackLayout>
+            
+            <HorizontalStackLayout Spacing="50">
+                <Label 
                 Text="Total"
-                
+                FontAttributes="Bold"
+                TextColor="DarkGreen"
+                    
+                   
              />
-            <Label
-                Text="0.00"
-                x:Name="LabelTotalValue"
-                />
-
-            <Label
-                Text="Tip Porcentagem"
                 
+                <Label  
+                Text="0.00" 
+                x:Name="LabelTotalValue"
+                FontAttributes="Bold"
                 />
-            <Label
+                
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="30">
+                <Label 
+                Text="Porcentagem: "
+                FontAttributes="Bold"
+                TextColor="DarkGreen"
+                    
+                />
+                
+                <Label
                 Text="0%"
+                FontAttributes="Bold"
                 x:Name="LabelPercentValue"
+                    
                 />
-
+                
+            </HorizontalStackLayout>
             <Slider
+
                 x:Name="SliderTipPercent"  
                 Minimum="0"
                 Maximum="100"
                 ValueChanged="SliderTipPercent_ValueChanged_1"
-                />
-
-            <Button
-                x:Name="Button15"
-                Text="15%" 
-                Clicked="OnButton15Clicked"
+                ThumbColor="Black"
+                BackgroundColor="DarkGreen"
+                MaximumTrackColor="DarkGreen"
+                MinimumTrackColor="DarkRed"
                 
                 />
 
-            <Button
+            <Grid ColumnDefinitions="200,200" ColumnSpacing="10" RowDefinitions="50,50" RowSpacing="10">
+                
+
+                <Button  Grid.Column="0" Grid.Row="0" 
+                x:Name="Button15"
+                Text="15%" 
+                Clicked="OnButton15Clicked"
+                BackgroundColor="DarkRed"
+                FontAttributes="Bold"
+                 
+                />
+
+                            <Button Grid.Column="1" Grid.Row="0"
                 x:Name="Button20"
                 Text="20%" 
                 Clicked="OnButton20Clicked"
+                BackgroundColor="DarkRed"
+                FontAttributes="Bold"
              />
 
-            <Button
+                            <Button Grid.Column="0" Grid.Row="1"
                 x:Name="ButtonRoundDown"
                 Text="Arredondar Para Baixo" 
                 Clicked="ButtonRoundDownClicked"
-            />
+                BackgroundColor="DarkRed"
+                FontAttributes="Bold"           
+                />
 
-            <Button
+                            <Button Grid.Column="1" Grid.Row="1" 
                 x:Name="ButtonRoundUp"
                 Text="Arredondar Para Cima" 
                 Clicked="ButtonRoundUpClicked"
+                BackgroundColor="DarkRed"
+                FontAttributes="Bold"
             />
+               </Grid>
 
         </VerticalStackLayout>
     </ScrollView>
